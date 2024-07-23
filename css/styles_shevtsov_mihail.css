@@ -1,0 +1,84 @@
+/* Сброс/Reset */
+h1,h2,h3,h4,h5,h6,div,body,p,ul,ol,li{
+    padding: 0;
+    margin: 0
+}
+
+ul,ol{
+	list-style: none
+}
+
+body{
+    font-family: 'Noto Sans', sans-serif;
+	background-image: url(../images/funart.jpg);
+}
+
+h1 {
+	text-align: center;
+	color: #fff;
+}
+
+
+.osnovateli_roda_main {
+	padding-bottom: 150px;
+}
+
+.family_tree{
+	text-align: center;
+	padding-bottom: 50px;
+}
+
+.family_tree img{
+	width: 400px;
+	height: 200px;
+	text-align: center;
+	opacity: 0.2;
+	border-radius: 30px;
+}
+
+.or_slyders {
+	display: flex;
+	justify-content: center;
+	padding-bottom: 50px;
+}
+
+.or_slyders2 {
+	display: flex;
+	justify-content: center;
+	padding-bottom: 50px;
+}
+
+.or_slyders3 {
+	display: flex;
+	justify-content: center;
+}
+
+.or1, .or2, .or3 {
+	padding: 10px 50px;
+}
+
+.or6, .or7 {
+	padding: 10px;
+}
+
+.or8, .or9{
+	padding: 10px 200px 0 200px;
+}
+
+.or1 a, .or2 a, .or3 a, .or4 a, .or5 a, .or6 a, .or7 a, .or8 a, .or9 a{
+	background: #dbd6d8e9;
+	color:#000000;
+	font-weight: 700;
+    padding: 30px 82px 30px 90px;
+	border-radius: 15px;
+	text-decoration: none;
+	letter-spacing: 3px;
+}
+
+.or1 a:hover, .or2 a:hover, .or3 a:hover, .or4 a:hover, .or5 a:hover, .or6 a:hover, .or7 a:hover, .or8 a:hover, .or9 a:hover {
+	color:#d0ad7a;
+}
+
+.or6{
+	text-align: center;
+}

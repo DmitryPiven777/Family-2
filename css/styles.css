@@ -1,0 +1,77 @@
+/* Сброс/Reset */
+h1,h2,h3,h4,h5,h6,div,body,p,ul,ol,li{
+    padding: 0;
+    margin: 0
+}
+
+ul,ol{
+	list-style: none
+}
+
+body{
+    font-family: 'Noto Sans', sans-serif;
+	background-image: url(../images/funart.jpg);
+}
+
+h1 {
+	text-align: center;
+	color: #fff;
+}
+
+h2 {
+	color: #fff;
+}
+
+.osnovateli_roda_main {
+	padding: 50px 200px;
+}
+
+.rodoslovnye {
+	padding-bottom: 100px;
+}
+
+.or_slyders, .or_slyders2 {
+	display: flex;
+	justify-content: center;
+	padding-bottom: 200px;
+}
+
+.or1, .or2, .or3, .or4, .or5, .or6{
+	padding: 0 25px;
+}
+
+.or1 a, .or2 a, .or3 a, .or4 a, .or5 a, .or6 a{
+	background: #dbd6d8e9;
+	color:#000000;
+	font-weight: 700;
+    padding: 50px 72px 50px 80px;
+	border-radius: 15px;
+	text-decoration: none;
+	letter-spacing: 3px;
+}
+
+.or1 a:hover, .or2 a:hover, .or3 a:hover, .or4 a:hover, .or5 a:hover, .or6 a:hover{
+	color:#d0ad7a;
+}
+
+.rodoslovnye_btn {
+	text-align: center;
+	padding-top: 100px;
+}
+
+.rodoslovnye_btn a {
+	background: #dbd6d8e9;
+	color:#000000;
+	font-weight: 700;
+    padding: 50px 72px 50px 80px;
+	border-radius: 15px;
+	text-decoration: none;
+	letter-spacing: 3px;
+}
+
+.rodoslovnye_btn a:hover {
+	color:#d0ad7a;
+}
+
+
+
